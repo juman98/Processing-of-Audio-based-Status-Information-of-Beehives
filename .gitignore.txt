@@ -1,2 +1,31 @@
+# Ignore all files in the Data directory
+Data/**
+
+# Ignore all files in the Models directory
+Models/**
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+env/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore output files from model training
+Models/Spacy\ NER/Spacy_model_output/model-best/
+Models/Spacy\ NER/Spacy_model_output/model-last/
+
 # Ignore specific large files
 Models/BERT_QA/model.safetensors
